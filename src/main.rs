@@ -1,4 +1,4 @@
-use v::prelude::v1::*;
+use v::prelude::v0::*;
 
 #[tokio::main]
 async fn main() -> VResult<()> {

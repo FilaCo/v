@@ -1,6 +1,7 @@
 use crate::app::AppResult;
+use yadi::prelude::v0::*;
 
-pub struct Kernel;
+pub struct Kernel {}
 
 impl Kernel {
     pub fn new() -> Self {
