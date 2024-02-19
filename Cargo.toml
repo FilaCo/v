@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = [ "ddd", "plugin", "yadi"]
+members = [ "ddd", "ddd-derive", "plugin", "yadi"]
 
 [package]
 name = "v"
@@ -9,6 +9,7 @@ edition = "2021"
 
 [dependencies]
 ddd = { path = "ddd" }
+ddd-derive = { path = "ddd-derive" }
 libloading = { version = "0.8" }
 thiserror = { version = "1" }
 tokio = { version = "1", features = ["full"] }
