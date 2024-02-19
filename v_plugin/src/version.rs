@@ -58,6 +58,4 @@ impl Ord for Version {
 }
 
 #[cfg(test)]
-mod tests {
-    
-}
+mod tests {}
