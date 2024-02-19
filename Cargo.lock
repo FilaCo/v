@@ -197,6 +197,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8afb450f006bf6385ca15ef45d71d2288452bc3683ce2e2cacc0d18e4be60b58"
 
 [[package]]
+name = "plugin"
+version = "0.1.0"
+dependencies = [
+ "thiserror",
+]
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.78"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -337,19 +344,13 @@ checksum = "f00cc9702ca12d3c81455259621e676d0f7251cec66a21e98fe2e9a37db93b2a"
 name = "v"
 version = "0.1.0"
 dependencies = [
+ "ddd",
  "libloading",
+ "plugin",
  "thiserror",
  "tokio",
  "uuid",
- "v_plugin",
  "yadi",
-]
-
-[[package]]
-name = "v_plugin"
-version = "0.1.0"
-dependencies = [
- "thiserror",
 ]
 
 [[package]]
