@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["v_plugin", "yadi"]
+members = [ "ddd","v_plugin", "yadi"]
 
 [package]
 name = "v"
@@ -8,7 +8,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+libloading = { version = "0.8" }
 thiserror = { version = "1" }
 tokio = { version = "1", features = ["full"] }
+uuid = { version = "1" }
 v_plugin = { path = "v_plugin" }
 yadi = { path = "yadi" }

@@ -1,3 +1,4 @@
+mod entity;
 mod error;
 mod result;
 

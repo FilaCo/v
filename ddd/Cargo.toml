@@ -1,8 +1,8 @@
 [package]
-name = "yadi"
+name = "ddd"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+async-trait = { version = "0.1" }
 thiserror = { version = "1" }
-uuid = { version = "1" }
